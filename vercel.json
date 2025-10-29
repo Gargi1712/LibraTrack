@@ -2,10 +2,7 @@
   "version": 2,
   "framework": null,
   "builds": [
-    {
-      "src": "package.json",
-      "use": "@vercel/static-build"
-    }
+    { "src": "package.json", "use": "@vercel/static-build" }
   ],
   "buildCommand": "npm run build",
   "outputDirectory": "dist",
